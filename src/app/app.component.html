@@ -412,6 +412,11 @@
     </div>
   </div>
 
+  <div class="card-container">
+    <button class="card card-small" click="mensajeEspanol()">Cambiar a español</button>
+    <button class="card card-small" click="englishMessage()">Switch to english</button>
+  </div>
+
   <!-- Terminal -->
   <div class="terminal" [ngSwitch]="selection.value">
       <pre *ngSwitchDefault>ng generate component xyz</pre>
