@@ -417,6 +417,10 @@
     <button class="card card-small" (click)="englishMessage()">Switch to english</button>
   </div>
 
+  <div>
+    <p>{{ (dato$ | async)?.texto }}</p>
+  </div>
+
   <!-- Terminal -->
   <div class="terminal" [ngSwitch]="selection.value">
       <pre *ngSwitchDefault>ng generate component xyz</pre>
