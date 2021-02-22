@@ -15,7 +15,7 @@ import { miReducer } from "./app.reducer";
     BrowserModule,
     AppRoutingModule,
     StoreModule.forRoot({
-      texto: miReducer
+      mensaje: miReducer
     })
   ],
   providers: [],
