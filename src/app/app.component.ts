@@ -18,9 +18,8 @@ export class AppComponent {
   }
 
   mensajeEspanol() {
-    console.log('click')
     this.store.dispatch({
-      type: "ESPAÑOL"
+      type: "SPANISH"
     })
   }
 
